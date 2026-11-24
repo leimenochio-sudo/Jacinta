@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+</head>
+
+<body>
+    <!-- 1. Crea un header con una etiqueta <nav> -->
+    <!-- Dentro del nav, crea una lista con enlaces que apunten a #sobre-mi y #proyectos -->
+
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+            <a href="./pages/nosotros.html">Nosotros</a>
+            <a href="./pages/productos.html">Productos</a>
+<a href="./pages/contacto.html">Contacto</a>
+<a href="./pages/ubicacion.html">Ubicación</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- 2. Crea una sección con id="sobre-mi" -->
+        <!-- Dentro, inserta una imagen usando <figure> y <figcaption> -->
+        <!-- No olvides el atributo 'alt' descriptivo en la imagen -->
+        <!-- Debajo de la imagen, agrega un video de presentación con <video> y el atributo controls -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <figure>
+                <img src="assets/tiendaderopa.jpeg" alt="imagen de las perchas con ropa" width="500">
+                <figcaption>Nuestra tienda fisica</figcaption>
+            </figure>
+            <video controls width="400">
+                <source src="videocliente.mov">
+                Tu navegador no admite la reproducción de video.
+            </video>
+        </section>
+
+        <!-- 3. Crea una sección con id="proyectos" -->
+        <!-- Agrega un enlace externo a GitHub que se abra en una pestaña nueva -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visitar GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Mi Nombre - Estudiante de Desarrollo Web</p>
+    </footer>
+</body>
+
+</html>
