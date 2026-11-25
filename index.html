@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio Profesional</title>
+    <title>Jacinta | Tienda de ropa</title>
 </head>
 
 <body>
@@ -12,47 +12,62 @@
     <!-- Dentro del nav, crea una lista con enlaces que apunten a #sobre-mi y #proyectos -->
 
     <header>
-        <h1>Mi Portafolio</h1>
+        <img src="assets/logo.png" alt="Logo de Jacinta" width="150">
+        <p>Jacinta</p>
         <nav>
             <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/ubicacion.html">Ubicación</a></li>
             </ul>
-            <a href="./pages/nosotros.html">Nosotros</a>
-            <a href="./pages/productos.html">Productos</a>
-<a href="./pages/contacto.html">Contacto</a>
-<a href="./pages/ubicacion.html">Ubicación</a>
         </nav>
+
 
     </header>
 
     <main>
+        <section>
+            <h1>Bienvenidas a Jacinta</h1>
+            <p>Somos una tienda de ropa femenina. Conocé nuestras prendas y encontrá opciones para tu día a día.</p>
+        </section>
         <!-- 2. Crea una sección con id="sobre-mi" -->
         <!-- Dentro, inserta una imagen usando <figure> y <figcaption> -->
         <!-- No olvides el atributo 'alt' descriptivo en la imagen -->
         <!-- Debajo de la imagen, agrega un video de presentación con <video> y el atributo controls -->
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
+        <section id="nuestra-tienda">
+            <h2>Nuestra tienda</h2>
+            <p>En Jacinta ofrecemos ropa femenina y te ayudamos a elegir prendas según tus gustos.</p>
             <figure>
                 <img src="assets/tiendaderopa.jpeg" alt="imagen de las perchas con ropa" width="500">
                 <figcaption>Nuestra tienda fisica</figcaption>
             </figure>
-            <video controls width="400">
-                <source src="videocliente.mov">
-                Tu navegador no admite la reproducción de video.
-            </video>
+
         </section>
 
         <!-- 3. Crea una sección con id="proyectos" -->
         <!-- Agrega un enlace externo a GitHub que se abra en una pestaña nueva -->
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visitar GitHub</a>
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+
+            <article>
+                <h3>Asesoramiento para elegir tus prendas</h3>
+                <p>Te ayudamos a encontrar opciones para vos.</p>
+                <ul>
+                    <li>Asesoramiento de talles.</li>
+                    <li>Ideas para combinar prendas.</li>
+                    <li>Consultas sobre colores y modelos disponibles.</li>
+                </ul>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; Mi Nombre - Estudiante de Desarrollo Web</p>
+        <p>&copy; 2026 Jacinta. Todos los derechos reservados.</p>
+        <a href="https://www.instagram.com/jacinta_97_/" target="_blank" rel="noopener noreferrer">
+            Instagram
+        </a>
     </footer>
 </body>
 

@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto | Jacinta</title>
 </head>
+
 <body>
     <header>
+        <img src="../assets/logo.png" alt="Logo de Jacinta" width="150">
+        <p>Jacinta</p>
+
         <nav>
-            <a href="../index.html">Inicio</a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Para contactarnos</h1>
-        <p>jacinta@gmail.com</p>
-        <p>Completá el formulario para escribirnos.</p>
+        <section>
+            <h1>Contactanos</h1>
+            <p>Consultanos por talles, colores y disponibilidad de prendas.</p>
 
-        <form method="get">
-            <div>
-                <label for="nombre">Tu nombre:</label>
-                <input
-                    type="text"
-                    id="nombre"
-                    name="nombre"
-                    required
-                >
-            </div>
+            <figure>
+                <img src="../assets/tiendaderopa.jpeg" alt="Prendas en perchas en la tienda Jacinta" width="500">
+                <figcaption>Estamos para ayudarte a elegir tus prendas.</figcaption>
+            </figure>
 
-            <div>
-                <label for="email">Correo electrónico:</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                >
-            </div>
+            <article>
+                <h2>Escribinos</h2>
+                <p>Correo electrónico: jacinta@gmail.com</p>
+                <p>Este formulario es de práctica: todavía no envía mensajes.</p>
 
-            <div>
-                <label for="mensaje">Mensaje:</label>
-                <textarea
-                    id="mensaje"
-                    name="mensaje"
-                    rows="5"
-                    required
-                ></textarea>
-            </div>
+                <form method="get">
+                    <div>
+                        <label for="nombre">Tu nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
 
-            <button type="submit">Enviar</button>
-        </form>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Jacinta. Todos los derechos reservados.</p>
+        <a href="https://www.instagram.com/jacinta_97_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </footer>
 </body>
+
 </html>
